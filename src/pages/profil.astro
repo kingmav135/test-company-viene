@@ -1,0 +1,67 @@
+---
+import Layout from "@layouts/Layout.astro";
+
+
+---
+
+<Layout title="profil">
+            
+<div class=" flex mt-16  items-center justify-center" >
+    <div class="bg-white  p-8 rounded-md shadow-xl w-1/3">
+       <h2 class="font-bold text-2xl text-center">PROFIL</h2><br>
+           <form class="space-y-5">
+                   <div>
+                     <label for="" class="text-black text-lg font-bold">Nom:</label>
+                      <input type="text" name="" id="" required class="w-full border rounded-xl p-2" placeholder="entrez votre Nom">
+                   </div>
+                   <div>
+                     <label for="" class="text-black text-lg font-bold">Prénom:</label>
+                      <input type="text" name="" id="" required class="w-full border rounded-xl p-2" placeholder="entrez votre prénom">
+                   </div>
+                   <div>
+                     <label for="" class="text-black text-lg font-bold">Date de naissance:</label>
+                      <input type="date" name="" id="" required class="w-full border rounded-xl p-2" placeholder="entrez votre Nom">
+                   </div>
+                   <div class="space-x-4">
+                     <label for="" class="text-black text-lg font-bold">Genre:</label>
+                      <input type="radio" name="" id="" value="homme" >  homme
+                      <input type="radio" name="" id="" value="femme">  femme
+                   </div>
+                   <div>
+                    <label for="" class="text-black text-lg font-bold">email:</label>
+                     <input type="email" name="" id="" required class="w-full border rounded-xl p-2" placeholder="email">
+                  </div>
+                  <div>
+                    <label for="" class="text-black text-lg font-bold">Mot de passe:</label>
+                     <input type="password" name="" id="" required class="w-full border rounded-xl p-2" placeholder="entrez votre Mot de passe">
+                  </div>
+                  <div>
+                    <label for="" class="text-black text-lg font-bold">Adresse</label>
+                     <input type="text" name="" id="" required class="w-full border rounded-xl p-2" placeholder="entrez votre adresse">
+                  </div>
+                  <div>
+                    <label for="" class="text-black text-lg font-bold">Code Postal:</label>
+                     <input type="text" name="" id="" required class="w-full border rounded-xl p-2" placeholder="entrez votre Code postal">
+                  </div>
+                  <div>
+                    <label for="" class="text-black text-lg font-bold">Ville:</label>
+                     <input type="text" name="" id="" required class="w-full border rounded-xl p-2" placeholder="entrez votre ville" required>
+                  </div>
+                  <div>
+                    <label for="" class="text-black text-lg font-bold">Pays:</label>
+                     <input type="text" name="" id="" required class="w-full border rounded-xl p-2" placeholder="entrez votre Pays" required>
+                  </div>
+                  <div>
+                    <label for="" class="text-black text-lg font-bold">Texte Biographique:</label>
+                     <textarea name="text" rows="5" cols="44" class="border" maxlength="120">parlez de vous</textarea>
+                  </div>
+
+                  
+                  
+               <button type="button" class="w-full border rounded-xl p-2 bg-black text-white font-bold"> valider</button>
+           </form>
+
+   </div>
+</div>
+
+</Layout>

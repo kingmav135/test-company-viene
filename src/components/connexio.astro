@@ -1,0 +1,26 @@
+---
+import Navbar from "./navbar/navbar.astro"
+
+
+
+---
+
+<div class=" fixed inset-0 bg-gray-900 bg-opacity-50 items-center justify-center hidden flex" id="loginPopup">
+    <div class="bg-white  p-8 rounded-md shadow-md w-1/3">
+       <h2 class="font-bold text-2xl text-center">CONNEXION</h2><br>
+           <form class="space-y-5">
+                   <input type="email" name="" id="" required class="w-full border rounded-xl p-2" placeholder="entrez le nom">
+                   <input type="password" name="" id="" required class="w-full border rounded-xl p-2" placeholder="entrez le mot de passe">
+           <div class="justify-between  flex">
+                   <label for=""><input type="checkbox" name="" id="" placeholder="mot" class="mr-4">se souvenir de moi  </label>
+                   <h2><a href="http://" class="hover:underline">mot de passe oublie</a></h2>
+           </div>
+               <button type="button" class="w-full border rounded-xl p-2 bg-black text-white font-bold"> valider</button>
+           </form>
+           <button id="closePopup" class=" absolute top-40 right-30 text-red-400 text-5xl">&times;</button>
+           <h2 class="mt-4 text-center hover:tex"> Vous n'etes pas inscrit ? <a href="" class="hover:underline "> inscrivez-vous</a></h2>
+   </div>
+</div>
+
+
+
